@@ -1,4 +1,4 @@
-
+//  https://github.com/bdnaimur/assignment
 
 
 // Task One(01):
@@ -16,7 +16,7 @@ var result1 = kilometerToMeter(10.5);
 console.log(result1);
 
 
-// Task two(02):
+// Task Two(02):
 function budgetCalculator(x, y, z) {
     if ((parseInt(x) || parseInt(y) || parseInt(z)) && ((x > -1 || y > -1 || z > -1))) {
         var watchPrice = 50;
@@ -36,7 +36,7 @@ var result2 = budgetCalculator("5", '0', 50);
 console.log(result2);
 
 
-// Task three(03):
+// Task Three(03):
 function hotelCost(p) {
     if (parseInt(p) && p > 0) {
         var firstTen = 100;
@@ -67,7 +67,7 @@ var result3 = hotelCost('21');
 console.log(result3);
 
 
-// Task four(04):
+// Task Four(04):
 var arry = ["Amina", "Bakul", "AbulMalAbdulMuhit", "Roydunian", "Mahfuz", "JituMiaVia"];
 function megaFriend(x) {
     var checkArray = Array.isArray(x);
